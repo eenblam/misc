@@ -6,7 +6,7 @@ sed -i '/PasswordAuthentication/c\PasswordAuthentication no' /etc/ssh/sshd_confi
 sed -i '/PermitRootLogin/c\PermitRootLogin no' /etc/ssh/sshd_config;
 
 # Restart SSH
-#DEBIAN
+#DEBIAN / systemd
 #systemctl restart ssh.service;
 #CENTOS
 service sshd restart
