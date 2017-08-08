@@ -1,3 +1,6 @@
 [submodule "ssh_scripts/sshlogs/ssh-log-parse"]
 	path = ssh_scripts/sshlogs/ssh-log-parse
 	url = https://github.com/eenblam/ssh-log-parse.git
+[submodule "grid_dfs"]
+	path = grid_dfs
+	url = https://github.com/eenblam/grid_dfs.git
