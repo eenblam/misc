@@ -26,4 +26,4 @@ satisfy interfaces on the embedding type.
 This is just a happy discovery about Go,
 in which a fairly basic thing clicked into place for me.
 
-See the attached source file for an example of how this works.
+See the [included source code](embedded_interface.go) for an example of how this works.
