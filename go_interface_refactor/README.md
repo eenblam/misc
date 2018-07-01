@@ -12,7 +12,7 @@ turn it into an interface,
 create separate implementations for each target device type,
 and then create dummy implementations for testing purposes.
 
-Currently, though, `SSHConnection` has a few quirks:
+`SSHConnection` has a few quirks, though:
 - It has too many methods (more than 10) to be a convenient interface.
 - Many methods are independent of the target device.
 - The other methods accomplish roughly the same task, but for different devices. E.g. switches need to be rebooted after provisioning, but backhaul devices are able to soft-restart, so I have something along the lines of `c.PushNewBackhaulConfig()` and `c.PushNewSwitchConfig()`
