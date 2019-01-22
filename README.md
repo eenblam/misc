@@ -19,4 +19,3 @@ There are a few \*NIX-y things here as well:
 
 - [Parsing SSH logs](ssh_scripts/sshlogs/)
 - [Configuring a Digital Ocean VPS for SSH access](ssh_scripts/sshconfig/)
-- How to [build OpenMP in 2016](buildOpenMP/) on Ubuntu 14.04. I had a hard time finding current and concise documentation on this.
